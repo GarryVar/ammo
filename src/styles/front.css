@@ -1,0 +1,84 @@
+.front {
+    background-image: url('../img/amm.png');
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+.front__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--white);
+    padding-top: 204px;
+
+    min-height: 576px;
+}
+
+.front__title {
+    margin-bottom: 14px;
+    padding-left: 5px;
+
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.front__text {
+    margin-bottom: 16px;
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.front__guarantees {
+    margin-bottom: 43px;
+    padding-left: 7px;
+    padding-top: 1px;
+    /* width: 249px; */
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-family: Commissioner;
+}
+
+.front__guarantee {
+    display: flex;
+    column-gap: 15px;
+}
+
+.front__guarantee::before {
+    content: url('../img/icon-orange-heart.svg');
+    width: 15px;
+    height: 15px;
+}
+
+.front__consultation {
+    display: block;
+    padding: 17px 14px 17px 15px;
+    background-color: var(--primary);
+    border-radius: 40px;
+    text-transform: capitalize;
+    color: var(--dark);
+    font-size: 15px;
+    line-height: 18px;
+}
+
+@media (min-width: 768px) {
+    .front {
+        background-image: url('../img/amm.png');
+    }
+}
+
+@media (min-width: 1024px) {
+    .front__title {
+        font-size: 70px;
+        line-height: 93px;
+    }
+}

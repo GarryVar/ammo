@@ -1,0 +1,44 @@
+.services__body {
+    padding-top: 22px;
+}
+
+.services__body h2 {
+    margin-bottom: 36px;
+
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.services__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 35px;
+}
+
+.services__item {
+    position: relative;
+    padding: 278px 26px 35px 21px;
+    width: 296px;
+    min-height: 360px;
+
+    border-radius: 10px;
+}
+
+.services__item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.services__item p {
+    position: relative;
+    z-index: 2;
+    text-transform: capitalize;
+
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--white);
+}

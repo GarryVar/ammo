@@ -1,0 +1,13 @@
+.primary-text-color {
+    color: var(--primary);
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .hidden {
+        display: block;
+    }
+}

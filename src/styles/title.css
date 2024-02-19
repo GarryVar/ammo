@@ -1,0 +1,20 @@
+.title {
+    position: relative;
+
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.title--underline::after {
+    content: '';
+
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+
+    width: 100px;
+    height: 5px;
+    background-color: var(--primary);
+
+    transform: translateX(-50%);
+}
